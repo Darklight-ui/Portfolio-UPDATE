@@ -303,6 +303,9 @@ header {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  width: 250px;
+  height: 30px;
+  
 }
 
 .btn:hover {
@@ -375,6 +378,9 @@ header {
   background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section__subtitle__work {
